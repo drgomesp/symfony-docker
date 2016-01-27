@@ -1,6 +1,6 @@
 web:
   build: .
-  container_name: symfony-ultimate-edition
+  container_name: symfony-docker
   ports:
    - "8888:8888"
   volumes:
@@ -10,7 +10,7 @@ web:
     - mariadb
     - memcached
   environment:
-    VIRTUAL_HOST: symfony-ultimate-edition.dev
+    VIRTUAL_HOST: symfony-docker.dev
     VIRTUAL_PORT: 8888
 
 mariadb:
