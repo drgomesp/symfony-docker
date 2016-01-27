@@ -25,16 +25,16 @@ After cloning the repository, all you need to do is install the dependencies:
 php composer.phar install
 ```
 
-Build the machine:
+Build the containers:
 
 ```bash
-docker-machine build
+docker-compose build
 ```
 
 And run the server:
 
 ```bash
-docker-machine up
+docker-compose up
 ```
 
 Once that's done, you should be able to access the application on the IP that docker (or Docker Machine) is running at.
