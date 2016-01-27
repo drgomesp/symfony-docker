@@ -1,6 +1,6 @@
 {
     "name": "drgomesp/symfony.ultimate.edition",
-    "license": "proprietary",
+    "license": "MIT",
     "type": "project",
     "autoload": {
         "psr-4": {
@@ -30,7 +30,8 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^2.7"
+        "symfony/phpunit-bridge": "^2.7",
+        "codegyre/robo": "*"
     },
     "scripts": {
         "post-install-cmd": [
