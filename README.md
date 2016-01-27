@@ -1,10 +1,4 @@
-<p align="center"><a href="https://github.com/drgomesp/symfony-docker" target="_blank"><img width="175"src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png"></a></p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/drgomesp/symfony-docker.svg" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/forks/drgomesp/symfony-docker.svg" alt="GitHub Forks">
-  <img src="https://badges.gitter.im/drgomesp/symfony-docker.svg" alt="Gitter Chat">
-</p>
+<img align="right" width="250px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
 
 Symfony Docker Edition
 ========================
