@@ -1,4 +1,7 @@
-symfony-ultimate-edition
+<img align="right" width="160px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
+
+Symfony Docker Edition
 ========================
 
-A Symfony project created on January 27, 2016, 2:37 pm.
+The unofficial Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
+
