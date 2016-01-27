@@ -1,17 +1,27 @@
-web:
-  build: .
-  container_name: symfony-docker
-  ports:
-   - "8888:8888"
-  volumes:
-    - .:/app
-    - ./docker/nginx/vhost_dev.conf:/etc/nginx/sites-enabled/default
+app:
+    container_name: symfony-docker-app
+    image: ubuntu:trusty
+    volumes:
+        - .:/app
+    tty: true
+
+php:
+    container_name: symfony-docker-php
+    build: docker/php
+    volumes_from:
+        - app
+    links:
+        - mariadb
+        - memcached
+nginx:
+  container_name: symfony-docker-nginx
+  build: docker/nginx
+  volumes_from:
+      - app
   links:
-    - mariadb
-    - memcached
+      - php
   environment:
-    VIRTUAL_HOST: symfony-docker.dev
-    VIRTUAL_PORT: 8888
+    VIRTUAL_HOST: symfony-docker.palantir.local
 
 mariadb:
   image: tutum/mariadb
