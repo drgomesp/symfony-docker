@@ -1,13 +1,9 @@
 FROM php:5.6-fpm
 
 # Install packages
-RUN apt-get update
-RUN apt-get install -y \
-  nginx \
-  supervisor \
-  curl \
-  unzip \
-  php5-memcached
+RUN apt-get update &&\
+  apt-get install -y nginx supervisor curl unzip php5-memcached &&\
+  rm -r /var/lib/apt/lists/*
 
 RUN pecl install xdebug
 
