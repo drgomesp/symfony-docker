@@ -11,6 +11,8 @@ RUN apt-get install -y \
 
 RUN pecl install xdebug
 
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
 # Add configuration files
 ADD docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD docker/nginx/vhost_prod.conf /etc/nginx/sites-enabled/default
