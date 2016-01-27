@@ -15,7 +15,7 @@ web:
 
 mariadb:
   image: tutum/mariadb
-  container_name: api-mariadb
+  container_name: symfony-docker-mariadb
   environment:
     MARIADB_USER: admin
     MARIADB_PASS: admin
@@ -24,6 +24,6 @@ mariadb:
 
 memcached:
   image: memcached:1.4
-  container_name: api-memcached
+  container_name: symfony-docker-memcached
   ports:
     - "11211:11211"
