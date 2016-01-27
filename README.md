@@ -5,4 +5,11 @@ Symfony Docker Edition [![Join the chat at https://gitter.im/drgomesp/symfony-do
 
 The *unofficial* Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
 
-This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production enviroments. The main tools used are Symfony, Docker and Docker Compose.
+This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production enviroments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
+
+- Nginx
+- MariaDB
+- Memcached
+- PHP 5.6.17 + php-fpm
+- Xdebug
+- Opcache
