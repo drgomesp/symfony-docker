@@ -1,5 +1,5 @@
 {
-    "name": "drgomesp/symfony.ultimate.edition",
+    "name": "drgomesp/symfony-docker",
     "license": "MIT",
     "type": "project",
     "autoload": {
