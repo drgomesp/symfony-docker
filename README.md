@@ -1,6 +1,6 @@
 <img align="right" width="250px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
 
-Symfony Docker Edition
+Symfony Docker Edition [![Join the chat at https://gitter.im/drgomesp/symfony-docker](https://badges.gitter.im/drgomesp/symfony-docker.svg)](https://gitter.im/drgomesp/symfony-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ========================
 
 The *unofficial* Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
