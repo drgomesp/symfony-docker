@@ -1,6 +1,6 @@
-<img align="right" width="250px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
+<img align="right" width="175px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
 
-Symfony Docker Edition [![GitHub stars](https://img.shields.io/github/stars/drgomesp/symfony-docker.svg)](https://github.com/drgomesp/symfony-docker/stargazers) [![Twitter](https://img.shields.io/twitter/url/https/github.com/drgomesp/symfony-docker.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+Symfony Docker Edition [![by](https://img.shields.io/badge/by-%40drgomesp-ff69b4.svg)](https://github.com/drgomesp)  [![GitHub stars](https://img.shields.io/github/stars/drgomesp/symfony-docker.svg)](https://github.com/drgomesp/symfony-docker/stargazers) [![Twitter](https://img.shields.io/twitter/url/https/github.com/drgomesp/symfony-docker.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 ========================
 
 The *unofficial* Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
