@@ -20,6 +20,8 @@ RUN usermod -u 1000 www-data
 # Copy source files
 COPY . /app/
 
+WORKDIR /app
+
 EXPOSE 8888
 
 CMD ["/usr/bin/supervisord"]
