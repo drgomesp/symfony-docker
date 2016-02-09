@@ -36,7 +36,7 @@ docker-compose up
 After that, all you need to do is install the dependencies:
 
 ```bash
-docker-compose run symfony-docker composer --prefer-source install
+docker-compose run web composer --prefer-source install
 ```
 
 Once that's done, you should be able to access the application on the IP that docker (or Docker Machine) is running at.
