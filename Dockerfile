@@ -2,10 +2,10 @@ FROM php:5.6-fpm
 
 # Install packages
 RUN apt-get update &&\
-  apt-get install -y nginx supervisor curl unzip php5-memcached &&\
+  apt-get install -y nginx supervisor curl unzip libz-dev libmemcached-dev &&\
   rm -r /var/lib/apt/lists/*
 
-RUN pecl install xdebug
+RUN pecl install xdebug memcached
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
