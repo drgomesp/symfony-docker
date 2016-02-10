@@ -20,7 +20,7 @@ mariadb:
     MARIADB_USER: admin
     MARIADB_PASS: admin
   ports:
-    - "3306:3306"
+    - 3306
 
 memcached:
   image: memcached:1.4
