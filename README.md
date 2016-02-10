@@ -17,7 +17,6 @@ This is an unofficial, open-source and community-driven boilerplate for Symfony 
 - Xdebug
 - Opcache
 
-==================
 Table of Contents
 ==================
 
