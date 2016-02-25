@@ -16,7 +16,6 @@ RUN apt-install \
     libssl-dev \
     git \
     zip \
-    curl \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
     libpng12-dev
