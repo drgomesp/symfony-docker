@@ -21,7 +21,7 @@ nginx:
   links:
       - php
   environment:
-    VIRTUAL_HOST: symfony-docker.palantir.local
+    VIRTUAL_HOST: symfony-docker.local
 
 mariadb:
   image: tutum/mariadb
