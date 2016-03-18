@@ -3,6 +3,7 @@ app:
     image: ubuntu:trusty
     volumes:
         - .:/app
+        - /app/var/cache
     tty: true
 
 php:

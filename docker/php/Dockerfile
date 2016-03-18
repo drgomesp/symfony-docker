@@ -35,4 +35,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
       --filename=composer && \
       echo "phar.readonly = off" > /usr/local/etc/php/conf.d/phar.ini
 
-CMD ["php-fpm"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh", "php-fpm"]
