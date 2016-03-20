@@ -3,7 +3,8 @@ app:
     image: ubuntu:trusty
     volumes:
         - .:/app
-        - /app/var/cache
+        - ./var/cache:/app/var/cache
+        - /tmp
     tty: true
 
 php:
@@ -23,6 +24,8 @@ nginx:
       - php
   environment:
     VIRTUAL_HOST: symfony-docker.local
+  ports:
+    - "80:80"
 
 mariadb:
   image: tutum/mariadb

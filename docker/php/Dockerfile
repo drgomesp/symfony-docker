@@ -2,6 +2,8 @@ FROM php:5.6-fpm
 
 MAINTAINER Mathew Peterson <mathewpeterson@me.com>
 
+RUN usermod -u 1000 www-data
+
 COPY bin/* /usr/local/bin/
 RUN chmod +x -R /usr/local/bin/
 
