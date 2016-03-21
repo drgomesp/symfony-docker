@@ -3,6 +3,8 @@
 Symfony Docker Edition [![by](https://img.shields.io/badge/by-%40drgomesp-ff69b4.svg)](https://github.com/drgomesp) [![Latest Stable Version](https://poser.pugx.org/drgomesp/symfony-docker/v/stable)](https://packagist.org/packages/drgomesp/symfony-docker)
 ========================
 
+> Please refer to [SymfonyDocker/DockerBundle](https://github.com/SymfonyDocker/DockerBundle) for more information about the progress of the bundle that promotes the separation of concerns between Docker configuration and this installer edition.
+
 The *unofficial* Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
 
 http://drgomesp.github.io/symfony-docker/
