@@ -1,6 +1,0 @@
-#!/bin/bash
-exec apt-get purge -y --auto-remove \
-  -o APT::AutoRemove::RecommendsImportant=false \
-  -o APT::AutoRemove::SuggestsImportant=false \
-  "$@"
-Status API Training Shop Blog About Pricing
