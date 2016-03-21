@@ -32,19 +32,13 @@ Table of Contents
 Build the containers:
 
 ```bash
-docker-compose build
+bin/console docker:compose:build
 ```
 
 And run the server:
 
 ```bash
-docker-compose up
-```
-
-After that, all you need to do is install the dependencies:
-
-```bash
-docker-compose run web composer --prefer-source install
+bin/console docker:compose:up
 ```
 
 Once that's done, you should be able to access the application on the IP that docker (or Docker Machine) is running at.
