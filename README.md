@@ -1,4 +1,4 @@
-<img align="right" width="175px" src="https://www.baptiste-donaux.fr/wp-content/uploads/2015/09/docker.png" />
+<img align="right" width="175px" src="https://camo.githubusercontent.com/7e57ebd8fa0125653e3b41c87fc4d3a6b61964fc/687474703a2f2f692e696d6775722e636f6d2f7663355a56714c2e706e673f32" />
 
 Symfony Docker Edition [![by](https://img.shields.io/badge/by-%40drgomesp-ff69b4.svg)](https://github.com/drgomesp) [![Latest Stable Version](https://poser.pugx.org/drgomesp/symfony-docker/v/stable)](https://packagist.org/packages/drgomesp/symfony-docker)
 ========================
