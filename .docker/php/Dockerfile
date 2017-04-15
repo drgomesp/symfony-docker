@@ -28,10 +28,10 @@ RUN composer --version
 #RUN "date"
 
 # Install memcached extension
-RUN git clone https://github.com/php-memcached-dev/php-memcached /usr/src/php/ext/memcached \
-    && cd /usr/src/php/ext/memcached && git checkout -b php7 origin/php7 \
-    && docker-php-ext-configure memcached \
-    && docker-php-ext-install memcached
+#RUN git clone https://github.com/php-memcached-dev/php-memcached /usr/src/php/ext/memcached \
+#    && cd /usr/src/php/ext/memcached && git checkout -b php7 origin/php7 \
+#    && docker-php-ext-configure memcached \
+#    && docker-php-ext-install memcached
 
 # Run docker-php-ext-install for available extensions
 RUN docker-php-ext-configure intl \
