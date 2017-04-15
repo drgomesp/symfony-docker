@@ -4,13 +4,13 @@ services:
 
   app:
     container_name: sf.app
-    build: ./docker/php
+    build: .docker/php
     volumes:
       - .:/app
 
   nginx:
     container_name: sf.nginx
-    build: ./docker/nginx
+    build: .docker/nginx
     volumes_from:
       - app
     ports:
