@@ -1,5 +1,6 @@
 {
     "name": "drgomesp/symfony-docker",
+    "description": "The Symfony Docker Edition, featuring Docker and Docker Compose – by Daniel Ribeiro",
     "license": "MIT",
     "type": "project",
     "autoload": {
