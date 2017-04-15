@@ -3,19 +3,14 @@
 Symfony Docker Edition [![by](https://img.shields.io/badge/by-%40drgomesp-ff69b4.svg?style=flat-square)](https://github.com/drgomesp) [![Latest Stable Version](https://poser.pugx.org/drgomesp/symfony-docker/v/stable?format=flat-square)](https://packagist.org/packages/drgomesp/symfony-docker)
 ========================
 
-> Please refer to [drgomesp/docker-bundle](https://github.com/drgomesp/docker-bundle) for more information about the progress of the bundle that promotes the separation of concerns between Docker configuration and this installer edition.
-
 The *unofficial* Symfony Docker Edition – by [@drgomesp](https://github.com/drgomesp)
 
 http://drgomesp.github.io/symfony-docker/
 
 This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production environments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
 
-- Supervisord
+- PHP 7.1 + PHP-FPM
 - Nginx
-- MariaDB
-- Memcached
-- PHP 5.6.17 + PHP-FPM
 - Xdebug
 - Opcache
 
