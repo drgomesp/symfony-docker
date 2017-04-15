@@ -26,16 +26,10 @@ Table of Contents
 
 > This project depends on having [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) running. This is a reverse proxy container that will allow having multiple projects running on port 80.
 
-Build the containers:
+Build and run the containers:
 
 ```bash
-bin/console docker:compose:build
-```
-
-And run the server:
-
-```bash
-bin/console docker:compose:up
+docker-compose up -d --build
 ```
 
 Once that's done, you should be able to access the application on the IP that docker (or Docker Machine) is running at.
