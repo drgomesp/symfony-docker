@@ -1,5 +1,6 @@
 FROM php:7.1-fpm
-MAINTAINER Daniel Ribeiro <drgomesp@gmail.com>
+
+LABEL maintainer "Daniel Ribeiro <drgomesp@gmail.com>"
 
 RUN apt-get update \
 	&& apt-get install -y \
