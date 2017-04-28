@@ -1,0 +1,24 @@
+@import "../variables";
+
+.navbar {
+  color: white;
+  background-color: #3097D1;
+  min-height: 3.5em;
+
+  .navbar-brand {
+    position: relative;
+    top: -0.05em;
+    font-family: $font-family-title;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .nav-item {
+    font-size: 0.85em;
+  }
+}
